@@ -1,2 +1,7 @@
-package business.abstracts;public interface CategoryService {
+package business.abstracts;
+
+import entities.concretes.Category;
+
+public interface CategoryService {
+    void add(Category category) throws Exception;
 }
